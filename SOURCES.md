@@ -55,3 +55,7 @@ REA needs its documented platform prerequisites; the app itself does not require
 - Changed generated controls from inline event-handler attributes to named, delegated JavaScript event listeners. This removes reliance on inline handler execution in hosting/embedded browser contexts. The reported browser failure was not reproduced in the private authenticated browser; this is a compatibility repair, not a confirmed CSP diagnosis.
 - Publisher links now open in the current tab to avoid relying on popup permissions. They still require internet and are not local application pages.
 - Added a no-script `START-HERE.html` and rewritten beginner README, with separate Mac/Windows download and extraction steps.
+
+## Expanded lesson guides
+
+Each of the 28 grammar lessons now includes a three-step guide, two explained examples, a common-mistake note, and nine questions. Six questions were added to each lesson (168 additional items); some are also available in the workbook for reinforcement. The library now has 291 questions across 41 lessons. Earlier three-question scores are explicitly labelled as historical until a complete new-set attempt; best-score comparisons are made within the same question-set size.

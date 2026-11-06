@@ -61,7 +61,7 @@ Some systems hide the `.html` ending. The file may appear as `index` with the ty
 5. Try **Type the answer** when you want a harder version.
 6. Use **Retry missed questions** to review mistakes.
 
-The workbook has **144 original questions** across 12 worksheets, including **48 dative-focused questions**. The language library also has 41 lessons / 123 questions, and exam practice has 60 original items.
+The workbook has **144 original questions** across 12 worksheets, including **48 dative-focused questions**. The language library also has 41 lessons / 291 questions, and exam practice has 60 original items.
 
 ### Step 5: use it without internet
 
@@ -145,11 +145,17 @@ If the command is not found, use the double-click method above; you do not have 
 
 Do not put your progress backups, personal writing or downloaded publisher books/audio into the public GitHub repository.
 
+## Inside each grammar lesson
+
+Every grammar lesson now has **9 questions** (previously 3). Before the questions, read **How this topic works**: three steps, explained examples and a common mistake. The 28 grammar lessons provide 252 questions in total. The separate workbook provides another 144 questions.
+
+Old three-question scores remain labelled as earlier-edition results until you complete the expanded lesson. Export/import still works.
+
 ## What is included
 
 - 28-day suggested study plan with selectable daily study budget.
 - 12 grammar worksheets / 144 original questions, with answer choices, typed answers and mistake review.
-- 41 language lessons / 123 questions and 40 themed vocabulary cards.
+- 41 language lessons / 291 questions and 40 themed vocabulary cards.
 - 60 original objective exam-format items.
 - Four timed email tasks with model responses, and speaking prompts for all three parts.
 - Local official-mock PDF/audio companion, assessed-score records and progress backup/import.
