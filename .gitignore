@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 klar-progress*.json
 mein-deutscher-text*.txt
+
+# Personal study materials and authored drafts
+personal-materials/
+mein-telc-entwurf*.txt
+rea-evidence*.json
