@@ -1,93 +1,171 @@
-<div align="center">
+# Klar Deutsch — start here
 
-# Klar Deutsch: telc B1 Preparation
+A German learning site for preparing for **Zertifikat Deutsch / telc Deutsch B1**.
 
-### A focused offline preparation space for Zertifikat Deutsch / telc Deutsch B1.
+You do **not** need to be a programmer. You do **not** need to install Python, Node.js, npm, REA, or a database to use it.
 
-**28-day study plan · 60 original exam-format items · 41 language lessons**
+## Option 1: use the private website
 
-[Quick start](#start-without-installing-anything) · [Exam preparation](#exam-preparation) · [Offline use](#recommended-a-stable-local-address) · [Backups](#where-your-data-lives) · [Sources & REA](SOURCES.md)
+1. Open [your private study site](https://klar-deutsch-b1-study-preview.bhuchungchungnga.chatgpt.site).
+2. If asked, choose **Continue with ChatGPT** and use the same ChatGPT account that owns the site.
+3. Start with **Exam home**. Choose **Study plan** for daily tasks or **Grammar practice** for the new question worksheets.
 
-</div>
+This option needs internet. Your learning progress is saved in that browser, not synced between devices.
 
-> **Your target:** standard telc Deutsch B1, starting from A2, with an exam within four weeks. The plan is editable through daily study-time choices. This is a demanding timeline: start with an official mock, prioritise weak areas, and obtain writing/speaking feedback. The app cannot guarantee or predict a pass.
+## Option 2: run it on your computer — no installation
 
-## Exam preparation
+### Step 1: download the site
 
-| Section | What it does |
+1. Open [the GitHub repository](https://github.com/lotushub/deutsch-B1).
+2. Find the green **Code** button above the file list.
+3. Click **Code**, then click **Download ZIP**.
+4. Wait for the download to finish. It will usually be in your **Downloads** folder.
+
+**Important:** clicking `index.html` on GitHub shows its source code. Download the ZIP first.
+
+### Step 2: extract the ZIP
+
+**On a Mac:**
+
+1. Open **Finder → Downloads**.
+2. Double-click the downloaded `.zip` file.
+3. A folder appears, usually called `deutsch-B1-main`.
+4. Move this folder to **Documents** so you can easily find it again.
+
+**On Windows:**
+
+1. Open **File Explorer → Downloads**.
+2. Right-click the downloaded `.zip` file.
+3. Choose **Extract All**, then **Extract**.
+4. Move the extracted folder to **Documents**.
+
+Do not run the site from inside the ZIP. Open the extracted folder.
+
+### Step 3: open the learning site
+
+1. Open the extracted folder.
+2. Find **START-HERE.html** and double-click it.
+3. Click **Open my German learning site** on the page that appears.
+4. You should see the dark **Klar Deutsch** site and its exam dashboard.
+
+You can also double-click **index.html** directly. If your computer opens a text editor or shows code, right-click `index.html`, choose **Open With**, and select **Chrome**, **Edge**, **Firefox**, or **Safari**.
+
+Some systems hide the `.html` ending. The file may appear as `index` with the type **HTML document**.
+
+### Step 4: study
+
+1. Choose **Grammar practice** in the menu.
+2. Open a worksheet, for example **Dative 1**.
+3. Select an answer, then click **Check this answer** for feedback.
+4. Complete all 12 questions and click **Check worksheet** to save the result.
+5. Try **Type the answer** when you want a harder version.
+6. Use **Retry missed questions** to review mistakes.
+
+The workbook has **144 original questions** across 12 worksheets, including **48 dative-focused questions**. The language library also has 41 lessons / 123 questions, and exam practice has 60 original items.
+
+### Step 5: use it without internet
+
+After downloading and extracting, the lessons, worksheets, writing prompts, study plan and answer feedback work without internet. Keep the extracted folder on your computer.
+
+These parts are different:
+
+- Links to telc, Lingolia and German.net need internet. They are optional resources, not offline pages.
+- Browser-generated listening needs an installed offline German voice. Some voices require internet.
+- Official telc PDF/audio files can work offline after you download them. See below.
+
+## Save and back up your progress
+
+Progress is automatically saved in your **browser storage**, on this computer and in this browser profile. There is no separate database to install.
+
+To make a backup:
+
+1. Choose **My progress** in the site menu.
+2. Click **Export progress**.
+3. Keep the downloaded `klar-progress-...json` file somewhere safe.
+
+To restore a backup:
+
+1. Open the site and go to **My progress**.
+2. Find **Import progress** and choose your saved `.json` backup.
+3. Confirm that you want to replace the current progress.
+
+Export before updating, moving folders, changing browsers, clearing browsing data, or switching between the private website and your local copy. Private/incognito browsing may delete progress when closed. Browser storage for directly opened files varies; keep backups regularly.
+
+## Get official telc audio and PDFs for offline use
+
+1. While online, choose **Resources** in the site.
+2. Open the official telc exam page and download the free mock test and matching audio.
+3. Extract that download, just as you extracted this site.
+4. Return to **Mock companion** in Klar Deutsch.
+5. Click the file selector and select the PDF/audio files from your computer.
+6. You can now use those selected local files offline. Reselect them after reopening the site.
+
+The site does not upload your files. You can also open the PDF and audio in your normal computer applications. Follow the official recording's instructions for a timed rehearsal.
+
+## If something does not work
+
+| Problem | Try this |
 | --- | --- |
-| Exam home | Exam structure and preparation dashboard |
-| Study plan | 28 suggested days; selectable 30/60/90/120-minute study budget; completion tracking |
-| Exam practice | 8 original drills, 60 items: reading headings/details/adverts; two connected-text language-element tasks; three true/false listening tasks |
-| Exam writing | 4 original four-point emails; 30-minute timer; saved drafts; self-review; original model responses |
-| Speaking | All 3 parts: getting acquainted, discussing opinions and planning together; 5 prompt sets and partner cards |
-| Mock companion | Open your own downloaded official PDF/audio locally; stage timers; record assessed mock scores |
-| My mistakes | Missed items from latest complete drill attempts, with explanations and personal error notes |
-| Resources | telc official resources and supplementary Lingolia links, with reuse/offline guidance |
-| Language library | Existing 41 lessons / 123 questions; 40 themed vocabulary cards; reading, listening and writing support |
+| A menu button does nothing | Make sure you have downloaded the latest ZIP. Open the extracted `index.html` in a normal browser, not a GitHub source page, attachment preview, or text editor. |
+| The private website shows an old version | Refresh it. On Mac press **Command + Shift + R**; on Windows press **Ctrl + Shift + R**. |
+| A telc, Lingolia or German.net link does not load | Connect to the internet. External publishers may require an account for some materials. |
+| I see code instead of the site | Right-click `index.html` → **Open With** → your web browser. |
+| The site is blank | Extract the ZIP first and open `index.html`. If necessary, try another browser with JavaScript enabled. |
+| No answer is marked | Choose/type an answer first, then use **Check this answer**. For a saved worksheet score, answer every question. |
+| Audio does not play | Use the transcript, install an offline German voice through your system settings, or play the downloaded official audio in your usual audio player. |
+| My progress is missing | Open the same file/location in the same browser profile, or import your latest backup. |
 
-**Official material and original practice are different.** The drill bank is not a calibrated mock exam. Synthetic speech is not authentic exam audio. Writing checklists do not grade language, and speaking cards do not evaluate pronunciation or replace a partner. Use the official mock/recording and assessed writing/speaking for a meaningful benchmark. Consult [SOURCES.md](SOURCES.md) for source links, scoring facts, limitations and REA inspection results.
+## Optional: a stable local web address
 
-The original 41 lessons retain their identifiers and browser storage key. Previous progress backups remain importable; new backups also include study days, exam-drill attempts, error notes, exam drafts and mock records.
+**Skip this section if double-clicking works.** It is useful if your browser does not reliably save progress for local files. Python 3 must already be installed.
 
-## Start without installing anything
+**Mac:** open Terminal, type `cd ` (including the space), drag the extracted site folder into Terminal, then press Return. Run:
 
-1. Download this repository using **Code → Download ZIP** on GitHub.
-2. Extract the ZIP to a permanent folder on your computer.
-3. Open `index.html` in Chrome, Edge, Firefox or Safari.
-4. Bookmark the file. You can disconnect from the internet and continue learning.
+```sh
+python3 serve.py
+```
 
-You must download and extract the file: GitHub's HTML source view and some attachment previews do not run JavaScript.
+**Windows:** open the extracted folder, click the File Explorer address bar, type `cmd`, then press Enter. Run:
 
-## Recommended: a stable local address
+```bat
+py serve.py
+```
 
-If Python 3 is already installed, open a terminal in this folder and run:
+Then open **http://127.0.0.1:8000** in your browser. Keep the Terminal/Command Prompt window open while studying. Press **Ctrl + C** in that window to stop the server. It works without internet and listens only on your computer. Always use the same address and port for the same saved progress.
 
-- Windows: `py serve.py`
-- macOS/Linux: `python3 serve.py`
+If the command is not found, use the double-click method above; you do not have to install Python. If the port is busy, close another copy of the local server and try again.
 
-Then open **http://127.0.0.1:8000** in your browser. The server listens only on your own computer, works without the internet and serves only this project folder. Keep the terminal open; press Ctrl+C to stop. Always use the same address, port and browser profile to keep the same saved progress.
+## How to update later
 
-Opening the file directly and opening the localhost address use separate browser storage. Export your progress before switching, then import it at the new address.
+1. Export your progress from the version you are currently using.
+2. Download and extract the new ZIP from GitHub.
+3. Open the new version's `index.html`.
+4. Import your progress backup.
+5. Keep the old folder until you have confirmed your progress is restored.
 
-## How to learn
+Do not put your progress backups, personal writing or downloaded publisher books/audio into the public GitHub repository.
 
-Select a section, open a lesson, select an answer and click **Check this answer**. Use **Check answers** after completing the lesson to save its score. Three correct answers mark a lesson mastered. Review vocabulary cards and write a draft in the writing workshop.
+## What is included
 
-## Where your data lives
+- 28-day suggested study plan with selectable daily study budget.
+- 12 grammar worksheets / 144 original questions, with answer choices, typed answers and mistake review.
+- 41 language lessons / 123 questions and 40 themed vocabulary cards.
+- 60 original objective exam-format items.
+- Four timed email tasks with model responses, and speaking prompts for all three parts.
+- Local official-mock PDF/audio companion, assessed-score records and progress backup/import.
 
-Course content is embedded in `index.html`. Lesson scores, vocabulary marks, writing drafts, study-day ticks, exam-drill results, error notes and mock records are stored in this browser profile's `localStorage`, under `klar-b1`. Nothing is uploaded to GitHub or any other server. The local Python server only serves files; it does not store your learning progress. Clearing site data or private browsing may erase progress. Direct file storage behavior varies by browser; prefer localhost for a stable origin.
+The app does not predict a pass, automatically assess writing or speaking, or replace an official mock and human feedback. From A2, four weeks is a demanding timeline. Use your baseline results to prioritise.
 
-Use **My progress → Export progress** regularly to download a JSON backup. **Import progress** restores that backup and replaces the current browser's saved progress, drafts and exam records. Keep backups outside the repository, especially if they contain personal writing. No automatic cross-device sync is included.
+## For someone editing the code (optional)
 
-## Offline listening
+- `index.html`: ready-to-use offline site; you do not need to build it after downloading.
+- `START-HERE.html`: beginner start page.
+- `src/app.js`: editable lessons, exercises and application code.
+- `src/template.html`: page layout and styling.
+- `build.py`: rebuilds `index.html` after source edits, using Python 3 only.
+- `serve.py`: optional local server.
+- [SOURCES.md](SOURCES.md): source references, material boundaries and verification limits.
 
-All written lessons and exercises work offline. Listening uses the browser/operating system's speech engine. Install a German **offline** voice in your system's language/speech settings if one is available. Some browser voices require an internet connection; select an offline German voice when offered by your system. A transcript is always available. Speech may be processed by a remote speech provider when an online voice is used; avoid that voice if you want strictly offline audio.
+After editing the source, run `python3 build.py` (Mac/Linux) or `py build.py` (Windows), then commit the rebuilt HTML with its sources. The application has no npm dependencies. REA was used as an inspection tool during development, not as a runtime requirement.
 
-## Files and editing
-
-- `index.html`: built standalone application; open this to study. No build is needed after downloading.
-- `src/app.js`: editable content and JavaScript logic.
-- `src/template.html`: editable HTML shell and responsive dark CSS.
-- `build.py`: embeds the source into the standalone HTML using Python's standard library.
-- `serve.py`: optional local-only HTTP server using Python's standard library.
-- `SOURCES.md`: official references, material boundaries, REA inspection and verification limits.
-- `.gitignore`: excludes progress backups, private drafts and personal study materials.
-
-After editing source files, run `python3 build.py` (macOS/Linux) or `py build.py` (Windows). Commit the rebuilt `index.html` together with the source changes. Node.js, npm and REA are not required to use or rebuild the app.
-
-## Official materials offline
-
-1. Open **Resources** while connected and download the official telc mock bundle from the publisher.
-2. Extract it into a folder outside this repository.
-3. In **Mock companion**, select the matching PDF and audio files from your computer.
-4. Use the official sequence and audio instructions during your rehearsal. Do not pause or reveal answers when simulating the exam.
-5. Mark objective tasks using the matching answer key and obtain criterion-based writing/speaking feedback before recording those points.
-
-The site uses local file URLs for selected media; it does not upload their contents. Reselect files after reloading the page. Unsupported media can be opened in your normal PDF/audio application. A record with missing assessed scores is shown as incomplete, not zero or a pass.
-
-## Privacy and offline boundaries
-
-The app has no account, backend database, analytics or remote grading. Ordinary study progress is saved in browser storage. Local PDF/audio selections stay in session memory; the app does not persist those files. External resource links need internet. Browser speech may use an online provider unless a local German voice is installed; real official audio played from a local file works offline when the browser supports its codec.
-
-This independent preparation aid is not affiliated with or endorsed by telc or Lingolia. Do not commit personal data or publisher materials to a public repository. No complete publisher course, paid question bank, official answer key or recording is distributed here.
+This independent site is not affiliated with or endorsed by telc, Lingolia or German.net. The practice material is original; publisher exercise banks and recordings are not redistributed.

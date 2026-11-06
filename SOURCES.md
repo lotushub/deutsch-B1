@@ -47,3 +47,11 @@ rea analyze-javascript-application /absolute/path/to/deutsch-B1 --source-path sr
 ```
 
 REA needs its documented platform prerequisites; the app itself does not require REA, Node.js or npm.
+
+## Added grammar workbook and interaction update
+
+- Reference for exercise types: [German.net dative prepositions](https://german.net/exercises/prepositions/dative/), inspected 6 November 2026. The reference uses choosing and writing missing prepositions/forms; many further worksheets are restricted. None of its exercise sentences, answers, or paid materials are copied.
+- Added 12 original worksheets with 144 questions, including 48 dative-focused items. The first dative sheet explicitly includes the useful construction `an ... vorbei`, which is not an always-dative preposition.
+- Changed generated controls from inline event-handler attributes to named, delegated JavaScript event listeners. This removes reliance on inline handler execution in hosting/embedded browser contexts. The reported browser failure was not reproduced in the private authenticated browser; this is a compatibility repair, not a confirmed CSP diagnosis.
+- Publisher links now open in the current tab to avoid relying on popup permissions. They still require internet and are not local application pages.
+- Added a no-script `START-HERE.html` and rewritten beginner README, with separate Mac/Windows download and extraction steps.
