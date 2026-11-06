@@ -1,6 +1,34 @@
-# Klar Deutsch B1 — offline German practice
+<div align="center">
 
-Original English-language explanations with German examples: 12 lessons, 36 questions, 20 vocabulary cards, a reading text, browser-generated listening and three writing prompts. No account, package installation, build step, external library or database server is required.
+# Klar Deutsch: Your Offline German B1 Library
+
+### Grammar, vocabulary, reading, listening and writing — in one local site.
+
+**41 lessons · 123 interactive questions · 40 vocabulary cards · No account required**
+
+[Quick start](#start-without-installing-anything) · [Course contents](#course-contents) · [Local server](#recommended-a-stable-local-address) · [Progress & backups](#where-your-data-lives) · [Offline listening](#offline-listening)
+
+</div>
+
+> **Offline first:** download this repository, extract it, and open `index.html`. All written lessons and exercises run on your computer. Listening depends on the German speech voices available on your device.
+
+A dark learning interface with a topic-based structure, search, explanatory feedback, themed vocabulary cards and mixed practice. Original B1-focused content with core grammar revision; not affiliated with Lingolia and not a reproduction of its course or paid exercises.
+
+## Course contents
+
+| Section | Included |
+| --- | --- |
+| Grammar | 28 lessons across tenses, verbs, nouns/articles, pronouns, adjectives, adverbs, prepositions and sentence structure |
+| Vocabulary | 40 word cards across 7 themes, plus 3 guides on dates/times, confusing words and everyday expressions |
+| Reading | 4 texts: a new city, a repair request, workplace arrangements and a community garden |
+| Listening | 4 messages: an appointment change, a train announcement, a course enquiry and weekend plans |
+| Writing school | 2 lessons: punctuation/capitalisation and formal email structure |
+| Writing workshop | 3 writing prompts, self-review checklist, saved drafts and text download |
+| Mixed practice | 10 randomly selected grammar/vocabulary questions per review, with explanations and links back to lessons |
+| Contents | Searchable index of every lesson |
+| My progress | Best lesson scores, mastery tracking and JSON backup/import |
+
+Existing progress from the previous 12-lesson version remains compatible: the first 12 lesson identifiers and the browser storage key are unchanged. Added lessons begin uncompleted.
 
 ## Start without installing anything
 
